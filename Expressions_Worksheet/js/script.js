@@ -94,4 +94,12 @@ var fiveWeek = [50, 60, 55, 65, 45];
 
 var total = fiveWeek[0] + fiveWeek[1] + fiveWeek[2] + fiveWeek[3] + fiveWeek[4];
 
-console.log(total);
+//console.log(total);
+
+var averageWeek = total / 5;
+
+//console.log(averageWeek);
+
+//Discounts
+
+
