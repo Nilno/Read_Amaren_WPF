@@ -16,17 +16,19 @@ var name = prompt("Type in your name please:");
 
 alert("Hi "+name+"! Let's see how much money you have toward a new mouse.")
 
+//Print out name to console
+
 console.log("Hi "+name+"! Let's see how much money you have toward a new mouse.")
 
 //Prompt user to see what type of mouse they would like to get
 
-prompt("What type of mouse would you like to buy?");
+var mouseType = prompt("What type of mouse would you like to buy?");
 
 //Ask how much they have saved
 
 var moneySaved = prompt("How much money do you have saved toward a new mouse?");
 
-//Print out response in console
+//Print out money saved to console
 
 console.log(moneySaved);
 
@@ -34,20 +36,34 @@ console.log(moneySaved);
 
 var mousePrice = 40;
 
+//Alert user about how much the mouse type would cost
+
+alert("A "+mouseType+" is usually "+mousePrice+" dollars.");
+
+//Printout type of mouse and mouse price to console
+
+console.log(mouseType);
+
 //Alert user of how much is saved
 
-alert(name+" you have " +moneySaved+" right now.");
+alert("You have " +moneySaved+" right now.");
 
-console.log(name+" you have " +moneySaved+" right now.");
+//Print out money saved to console
+
+console.log("You have " +moneySaved+" right now.");
 
 //Calculate how much money is needed toward savings
 
 var moneyNeeded = mousePrice - moneySaved;
 
+//Print out mouse price minus the money saved to console
+
 console.log(moneyNeeded);
 
 //Alert user how much they will need
 
-alert(name+" you will need " +moneyNeeded+" for the new hardware.");
+alert(name+" you will need " +moneyNeeded+" for the new mouse.");
 
-console.log(name+" you will need " +moneyNeeded+" for the new hardware.");
+//Print out name and money needed to console
+
+console.log(name+" you will need " +moneyNeeded+" for the new mouse.");
