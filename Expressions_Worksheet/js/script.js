@@ -66,19 +66,32 @@ var slicePizza = 8;
 
 slices = slicePizza * pizzaOrder;
 
-console.log(slices);
+//console.log(slices);
 
 //How many slices party goers get
 
 var partyGoers = slices/partyGoers;
 
-console.log(partyGoers)
+//console.log(partyGoers)
 
 //Remainder of left over pizza
 
-var remainder = 0.8
+var remainder = 0.8;
 
 //How much pizza does Sparky get
 var sparky = remainder * partyGoers;
 
-console.log(sparky);
+//console.log(sparky);
+
+
+//Average shopping bill
+
+//Five week shopping array
+
+var fiveWeek = [50, 60, 55, 65, 45];
+
+//Total of many spent over the five weeks
+
+var total = fiveWeek[0] + fiveWeek[1] + fiveWeek[2] + fiveWeek[3] + fiveWeek[4];
+
+console.log(total);
