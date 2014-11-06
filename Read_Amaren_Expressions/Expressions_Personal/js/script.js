@@ -24,6 +24,16 @@ var moneySaved = prompt("How much money do you have saved toward new hardware?")
 
 console.log(moneySaved);
 
+//Take savings and subtract it from mouse price
 
+var mousePrice = 40.00;
+
+//Calculate how much money is needed from savings
+
+var moneyNeeded = mousePrice - moneySaved;
+
+//Alert user of how much is saved
+
+alert(name+" you have " +moneySaved+" right now.");
 
 
