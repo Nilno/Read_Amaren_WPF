@@ -7,18 +7,19 @@
 
 //Sparky's age in human years
 
-var age = 1;
+var humanAge = 1;
 
 //Sparky's age in dog years
 
-var age = 7;
+var dogAge = 7;
 
 //Sparky is 1 years old in human years and 7 years old in dog years
 
-var age = 1 * 7;
+var age = humanAge * dogAge;
 
+//Printout of how old Sparky is in dog years
 
-//console.log(age);
+console.log(age);
 
 
 //Slice of pie I
@@ -39,13 +40,13 @@ var slicePizza = 8;
 
 slices = slicePizza * pizzaOrder;
 
-//console.log(slices)
-
 //How many slices party goers get
 
-var partyGoers = slices/partyGoers
+var partyGoers = slices/partyGoers;
 
-//console.log(partyGoers)
+//Printout of the number of slices each party goer gets to eat
+
+console.log(partyGoers);
 
 
 //Slice of pie II
@@ -66,22 +67,25 @@ var slicePizza = 8;
 
 slices = slicePizza * pizzaOrder;
 
+//Printout of the total number of pizza slices
+
 //console.log(slices);
 
 //How many slices party goers get
 
 var partyGoers = slices/partyGoers;
 
-//console.log(partyGoers)
-
 //Remainder of left over pizza
 
 var remainder = 0.8;
 
-//How much pizza does Sparky get
+//How much pizza slices Sparky gets
+
 var sparky = remainder * partyGoers;
 
-//console.log(sparky);
+//Printout of how many slices Sparky gets to eat
+
+console.log(sparky);
 
 
 //Average shopping bill
@@ -90,16 +94,68 @@ var sparky = remainder * partyGoers;
 
 var fiveWeek = [50, 60, 55, 65, 45];
 
-//Total of many spent over the five weeks
+//Total of money spent over the five weeks
 
 var total = fiveWeek[0] + fiveWeek[1] + fiveWeek[2] + fiveWeek[3] + fiveWeek[4];
 
-//console.log(total);
+//Printout of the total amount
+
+console.log(total);
+
+//The average of money spent
 
 var averageWeek = total / 5;
 
-//console.log(averageWeek);
+//Printout of the average
+
+console.log(averageWeek);
 
 //Discounts
 
+//Disciption of item
 
+var setItem = ("A headset with dual audio");
+
+//Printout of item
+
+console.log(setItem);
+
+//Original price
+
+var originalPrice = 20;
+
+//Printout of original price
+
+console.log(originalPrice)
+
+//Discount percentage
+
+var disPercent = 10;
+
+//Sales tax
+
+var salesTax = 1.5;
+
+//Item without tax
+
+var untxItem = originalPrice;
+
+//Printout of item with out tax
+
+console.log(untxItem);
+
+//Item with tax
+
+var taxedItem = salesTax;
+
+//Printout of item with tax
+
+console.log(taxedItem);
+
+//Item, original price, with discount, without tax, with tax.
+
+var total= originalPrice - disPercent + untxItem + taxedItem;
+
+//Printout of item, original price, with discount, without tax, with tax.
+
+console.log(total);
