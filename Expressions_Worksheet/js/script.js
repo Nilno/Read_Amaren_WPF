@@ -19,7 +19,7 @@ var age = humanAge * dogAge;
 
 //Printout of how old Sparky is in dog years
 
-console.log(age);
+console.log(age+ " how old Sparky is in dog years.");
 
 
 //Slice of pie I
@@ -46,7 +46,7 @@ var partyGoers = slices/partyGoers;
 
 //Printout of the number of slices each party goer gets to eat
 
-console.log(partyGoers);
+console.log(partyGoers+ " slices of pizza each party goer gets to eat.");
 
 
 //Slice of pie II
@@ -69,7 +69,7 @@ slices = slicePizza * pizzaOrder;
 
 //Printout of the total number of pizza slices
 
-//console.log(slices);
+console.log(slices+ " total number of pizza slices.");
 
 //How many slices party goers get
 
@@ -85,7 +85,7 @@ var sparky = remainder * partyGoers;
 
 //Printout of how many slices Sparky gets to eat
 
-console.log(sparky);
+console.log(sparky+ " slices of pizza Sparky gets to eat.");
 
 
 //Average shopping bill
@@ -100,7 +100,7 @@ var total = fiveWeek[0] + fiveWeek[1] + fiveWeek[2] + fiveWeek[3] + fiveWeek[4];
 
 //Printout of the total amount
 
-console.log(total);
+console.log(total+ " total amount.");
 
 //The average of money spent
 
@@ -108,7 +108,7 @@ var averageWeek = total / 5;
 
 //Printout of the average
 
-console.log(averageWeek);
+console.log(averageWeek+ " average weekly spending.");
 
 //Discounts
 
@@ -126,7 +126,7 @@ var originalPrice = 20;
 
 //Printout of original price
 
-console.log(originalPrice)
+console.log(originalPrice+ " is the original price.")
 
 //Discount percentage
 
@@ -142,7 +142,7 @@ var untxItem = originalPrice;
 
 //Printout of item with out tax
 
-console.log(untxItem);
+console.log(untxItem+ " the headset untaxed.");
 
 //Item with tax
 
@@ -150,12 +150,12 @@ var taxedItem = salesTax;
 
 //Printout of item with tax
 
-console.log(taxedItem);
+console.log(taxedItem+ " headset with tax.");
 
 //Item, original price, with discount, without tax, with tax.
 
 var total= originalPrice - disPercent + untxItem + taxedItem;
 
-//Printout of item, original price, with discount, without tax, with tax.
+//Printout of original price, with discount, without tax, with tax.
 
-console.log(total);
+console.log(total+ " original price, discounted, untaxed and taxed.");
