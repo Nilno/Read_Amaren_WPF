@@ -33,13 +33,13 @@ var woodBins = [200, 300];
 
 var woodTotal = woodBins[0] + woodBins[1];
 
-//Alert user stating how much wood there is.
-
-alert("You have "+woodTotal+ " pieces of wood");
-
 //Print out total amount of wood to console
 
 console.log(woodTotal+ "pieces of wood.");
+
+//Alert user stating how much wood they think they can chuck.
+
+alert("You have "+woodThink+ " pieces of wood from " +woodTotal+ " pieces of wood.");
 
 //Alert user to ask if they can chuck the amount they think to the total amount of wood
 

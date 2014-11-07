@@ -33,13 +33,13 @@ var soilBins = [20, 30];
 
 var soilTotal = soilBins[0] + soilBins[1];
 
-//Alert user stating how much soil there is.
+//Alert user stating how much soil they have.
 
-alert("You have "+soilTotal+ " amounts of soil.");
+alert("You have "+haveSoil+ " amounts of soil.");
 
 //Print out total amount of soil from soil pile to console
 
-console.log(soilTotal+ " from soil pile.");
+console.log(haveSoil+ " from soil pile.");
 
 //Alert user to ask if they have the  of soil from the total amount of soil.
 
@@ -47,7 +47,7 @@ alert("You have "+haveSoil+" from "+soilTotal+" amounts from soil pile.");
 
 //Printout of user to ask if they have the  of soil from the total amount of soil.
 
-console.log("You have "+haveSoil+" from "+soilTotal+" amounts soil pile.");
+console.log("You have "+haveSoil+" from "+soilTotal+" amounts from soil pile.");
 
 //Calculate total amount of soil subtracted from the amount the user has
 
