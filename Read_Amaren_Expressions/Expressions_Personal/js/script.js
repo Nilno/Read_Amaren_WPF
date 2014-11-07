@@ -4,6 +4,7 @@
  Expressions Personal
  11-4-14
  */
+
 //alert("Testing 1,2,3");
 
 //Create a js file that will tell how much money is needed to buy a new mouse
@@ -30,7 +31,7 @@ var moneySaved = prompt("How much money do you have saved toward a new mouse?");
 
 //Print out money saved to console
 
-console.log(moneySaved);
+console.log(moneySaved+ " how much money user has saved toward a new mouse.");
 
 //Take savings and subtract it from mouse price
 
@@ -42,7 +43,7 @@ alert("A "+mouseType+" is usually "+mousePrice+" dollars.");
 
 //Printout type of mouse and mouse price to console
 
-console.log(mouseType);
+console.log(mouseType+ " estimated price of a new mouse.");
 
 //Alert user of how much is saved
 
@@ -58,7 +59,7 @@ var moneyNeeded = mousePrice - moneySaved;
 
 //Print out mouse price minus the money saved to console
 
-console.log(moneyNeeded);
+console.log(moneyNeeded+ " mouse price minus the money saved.");
 
 //Alert user how much they will need
 

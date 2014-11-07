@@ -5,21 +5,15 @@
  11-6-14
  */
 
-/*
- Amaren Read
- WPF Sec 01
- Expressions Wacky
- 11-6-14
- */
 //alert("Testing 1,2,3");
 
-//Create a js file that will tell how much money is needed to buy a new mouse
+//How much wood could a woodchuck chuck if a woodchuck could chuck wood.
 
 //Ask the user their name
 
 var name = prompt("Type in your name please:");
 
-//Hi to the user
+//Welcome the user and let them know what we are going to be trying to figure out.
 
 alert("Welcome to the woods "+name+"! Let's see how much wood you can chuck.")
 
@@ -61,7 +55,7 @@ var woodToChuck = woodTotal - woodThink;
 
 //Print out total amount of wood subtracted from the user thinks they can chuck
 
-console.log(woodToChuck);
+console.log(woodToChuck+" total amount of wood subtracted from what user thinks they can chuck.");
 
 //Alert user how much they will need to chuck
 
