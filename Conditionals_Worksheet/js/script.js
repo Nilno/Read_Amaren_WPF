@@ -70,5 +70,9 @@ if(userGrade === "")
 
 (userGrade > grade) ? console.log("You have a passing grade!") : console.log("You don't have a passing grade!")
 
-//Group 3
+//Group 3 Movie ticket price
+
+var movieTime = 7;
+
+var userAge = 50;
 
