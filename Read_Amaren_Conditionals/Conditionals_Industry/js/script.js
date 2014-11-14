@@ -46,15 +46,17 @@ if(userAnsy === "yes"){
 
 //if user answers "yes" print to console and alert.
 
- console.log(flowerPots.length);
+ console.log(flowerPots.length+ " How many flowers in the pots.");
 
  alert(name+ " , You have "  +flowerPots.length+ " flowers.");
+
+ console.log(userAnsy+ " User answered yes.");
 
 }
 
 else if(userAnsn < userAnsy){
 
- console.log(userAnsy);
+ console.log(userAnsy+ " User answered yes.");
 
 }
 
@@ -68,11 +70,11 @@ else {
 
 if(userAnsn === "no"){
 
- alert(name+ " , You have " + flowerPots + " types of flowers.");
+ alert(name+ " , You have a " + flowerPots + " types of flowers.");
 
 }else {
 
- console.log(userAnsy);
+ console.log(userAnsn+ " User answered no.");
 
 }
 
@@ -89,3 +91,5 @@ if(flowerFirst === ""){
 }
 
 alert("Thanks " +name+ " for watering the flowers!")
+
+console.log("Thanks " +name+ " for watering the flowers!")
