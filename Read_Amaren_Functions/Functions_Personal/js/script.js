@@ -51,4 +51,25 @@ while(isNaN(paymentOrGave) || paymentOrGave==="") {
 
 }
 
+//Call the function
 
+var changePocket = pocketMoney(withdrawBank, paymentOrGave);
+
+//Print how much user has in pocket
+
+console.log(name+ ", you have " +changePocket+ " in your pocket.")
+
+//Alert user how much money they have in their pocket
+
+alert(name+ " you have " +changePocket+ " in your pocket.")
+
+//Function to calculate how much user has in pocket
+
+function pocketMoney(bank, payment){
+
+//See how much the user has in pocket by subtracting withdraw from bank by if the user gave or paid on anything
+
+ var extraChange = Number(bank - payment);
+
+ return extraChange;
+}
