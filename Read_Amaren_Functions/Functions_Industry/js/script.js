@@ -50,11 +50,11 @@ var circleCir = diaPi(whatPi, cirDiameter);
 
 //Print circle circumference to console
 
-console.log("The circumference of the garden circle is " +circleCir+ ".")
+console.log("The circumference of the garden circle, " +name+ ", is " +circleCir+ ".")
 
 //Alert user what the circle circumference is
 
-alert(+circleCir)
+alert("The circumference of the garden circle, " +name+ ", is " +circleCir+ ".")
 
 //Function to calculate the circumference
 
