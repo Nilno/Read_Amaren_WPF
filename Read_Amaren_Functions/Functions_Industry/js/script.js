@@ -64,5 +64,7 @@ function diaPi(pi,dia){
 
  var total = Math.round(pi * dia);
 
+//Returning var total
+
      return total;
 }

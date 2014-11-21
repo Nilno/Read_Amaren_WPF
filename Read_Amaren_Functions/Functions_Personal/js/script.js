@@ -20,7 +20,7 @@ var name = prompt("Hi! please type in your name?");
 
 while(name === ""){
 
- name = prompt("Could you please type in your name.")
+ name = prompt("Will you please type in your name.")
 }
 
 //alert user letting them know what we are doing
@@ -33,7 +33,7 @@ alert("We are going to calculate how much money you have in your pocket " +name+
 
 var withdrawBank = prompt("How much money did u take out of your bank " +name+ " ?");
 
-//Reprompt user if user input is not a number or user input is blank
+//Re-prompt user if user input is not a number or user input is blank
 
 while(isNaN(withdrawBank) || withdrawBank==="") {
 
@@ -70,6 +70,8 @@ function pocketMoney(bank, payment){
 //See how much the user has in pocket by subtracting withdraw from bank by if the user gave or paid on anything
 
  var extraChange = Number(bank - payment);
+
+ //Returning var extraChange
 
  return extraChange;
 }
