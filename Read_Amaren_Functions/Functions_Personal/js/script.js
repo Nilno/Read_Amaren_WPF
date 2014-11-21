@@ -5,13 +5,6 @@
  11-20-14
  */
 
-/*
- Amaren Read
- WPF Sec 01
- Functions Industry
- 11-20-14
- */
-
 //Name of user
 
 var name = prompt("Hi! please type in your name?");
